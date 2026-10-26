@@ -1,0 +1,15 @@
+# 1. Jangan upload file konfigurasi yang berisi password DB
+config/database.php
+config/config.php
+
+# 2. Jangan upload folder foto yang di-upload user (biar repo tidak berat)
+public/uploads/
+storage/temp/
+
+# 3. Abaikan file sistem operasi
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 4. Abaikan file log
+*.log
